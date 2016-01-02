@@ -9,7 +9,6 @@ describe("http request",function(){
 			.expect(200)
 			.expect(function(res){
 				var res = res.text ;
-				console.log(res);
 				assert.deepEqual(res,"Hello Sriram");
 				done();
 			})
