@@ -9,3 +9,4 @@ deployment:
 test:
   override:    
     - mocha
+    
