@@ -9,7 +9,7 @@ describe("http request",function(){
 			.expect(200)
 			.expect(function(res){
 				var res = res.text ;
-				assert.deepEqual(res,"Hello Sriram");
+				assert.deepEqual(res,"Hello Sriram !!");
 				done();
 			})
 			.end(function(err, res){
